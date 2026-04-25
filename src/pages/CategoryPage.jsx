@@ -1,7 +1,7 @@
 import { useParams, Link, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { categories, treatments } from '../data/treatments';
-import useReveal from '../hooks/useReveal';
+import useReveal from '../hooks/temp';
 
 import facialImg from '../assets/Facial.jpg';
 import estudioImg from '../assets/Estudio.jpg';
