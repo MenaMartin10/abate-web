@@ -1603,6 +1603,12 @@ body::before {
   .nav-logo img {
   height: 55px;
 }
+.hero-scroll {
+    display: none;
+  }
+   .about {
+  position: static;
+}
 }
 
 /* ============================================================
@@ -1649,6 +1655,12 @@ body::before {
   .tech-benefits ul {
     grid-template-columns: 1fr;
   }
+  .hero-scroll {
+    display: none;
+  }
+   .about {
+  position: static;
+}
 }
 
 /* ============================================================
@@ -1949,6 +1961,12 @@ body::before {
   .treatment-cta-actions .btn {
     justify-content: center;
   }
+  .hero-scroll {
+    display: none;
+  }
+   .about {
+  position: static;
+}
 }
 
 /* ============================================================
@@ -1976,5 +1994,11 @@ body::before {
   .treatment-other-grid {
     grid-template-columns: 1fr;
   }
+  .hero-scroll {
+    display: none;
+  }
+  .about {
+  position: static;
+}
 }
 
