@@ -1,5 +1,5 @@
 import Hero from '../components/Hero'
-import ParallaxSection from '../components/temp'
+import ParallaxSection from '../components/ParallaxSection'
 import About from '../components/About'
 import ContactForm from '../components/ContactForm'
 
