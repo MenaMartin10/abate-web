@@ -1576,8 +1576,11 @@ body::before {
   .about-visual {
     position: relative;
     top: 0;
+    width: 100%;
     max-width: 420px;
+    aspect-ratio: 3 / 4;
     margin: 0 auto;
+    justify-self: center;
   }
   .footer-inner {
     grid-template-columns: 1fr;
@@ -1597,6 +1600,9 @@ body::before {
     justify-content: center;
     gap: 1rem;
   }
+  .nav-logo img {
+  height: 55px;
+}
 }
 
 /* ============================================================
@@ -1971,3 +1977,4 @@ body::before {
     grid-template-columns: 1fr;
   }
 }
+

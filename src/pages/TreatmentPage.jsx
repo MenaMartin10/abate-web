@@ -1,6 +1,7 @@
 import { useParams, Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import { treatments, categories } from '../data/treatments';
+import { whatsappForTechnique } from '../utils/whatsapp';
 
 export default function TreatmentPage() {
   const { slug } = useParams();
@@ -118,15 +119,15 @@ function TechniqueBlock({ technique, index }) {
             </span>
           )}
           {technique.waLink && (
-            
-              <a href={technique.waLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn tech-cta"
-            >
-              Reservar cita
-            </a>
-          )}
+  
+    <a href={whatsappForTechnique(technique.title)}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn tech-cta"
+  >
+    Reservar cita
+  </a>
+)}
         </div>
       </div>
     </article>

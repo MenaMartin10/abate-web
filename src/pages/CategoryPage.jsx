@@ -2,6 +2,7 @@ import { useParams, Link, useLocation } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { categories, treatments } from '../data/treatments';
 import useReveal from '../hooks/useReveal';
+import { whatsappForTechnique } from '../utils/whatsapp';
 
 import facialImg from '../assets/Facial.jpg';
 import estudioImg from '../assets/Estudio.jpg';
@@ -229,15 +230,15 @@ function CapTechCard({ technique, index }) {
           )}
 
           {technique.waLink && (
-            
-              <a href={technique.waLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn cap-card-cta"
-            >
-              Reservar cita
-            </a>
-          )}
+  
+   <a href={whatsappForTechnique(technique.title)}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn cap-card-cta"
+  >
+    Reservar cita
+  </a>
+)}
         </div>
       </div>
     </article>
