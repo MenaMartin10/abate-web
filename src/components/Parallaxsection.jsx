@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import useReveal from '../hooks/temp';
+import useReveal from '../hooks/useReveal';
 
 export default function ParallaxSection({
   id,
