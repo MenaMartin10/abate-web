@@ -1910,9 +1910,6 @@ body::before {
   .form-row {
     grid-template-columns: 1fr;
   }
-  .about-text p:first-child::first-letter {
-    font-size: 3.2rem;
-  }
   .wa-float {
     bottom: 1.2rem;
     right: 1.2rem;
