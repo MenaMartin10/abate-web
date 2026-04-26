@@ -82,7 +82,7 @@ export default function Footer() {
         <span className="developer-credit">
           by{" "}
           <a
-            href="https://TU-PORTFOLIO.com"
+            href="https://portfolio-mena.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Portfolio de Martín Mena"
